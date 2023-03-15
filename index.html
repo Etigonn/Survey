@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+  <meta charset="uft-8">
+  <title>My first test on freeCodeCamp</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">League Of Lengends Survey</h1>
+    <p id="description">Thank you for taking time to answer this form</p>
+    <form id="survey-form">
+      <!--Personal info -->
+      <fieldset>
+        <label for="name" id="name-label">Name:
+          <input id="name" type="text" required placeholder="Enter your name">
+        </label> 
+        <label for="email" id="email-label">Email:
+          <input id="email" type="email" required placeholder="Enter your email">
+        </label>
+        <label for="number" id="number-label">Age <p class="age-optional">(optional)</p>:
+          <input id="number" type="number" min=12 max=100 placeholder="Enter your age">
+        </label> 
+      </fieldset>
+      <hr>
+      <!--Rank info -->
+      <fieldset>
+        <label><p class="lol-rank">What is your rank in League of Legends?</p>
+          <select id="dropdown">
+            <option value=0>Select one option</option>
+            <option value=1>Iron</option>
+            <option value=2>Bronze</option>
+            <option value=3>Silver</option>
+            <option value=4>Gold</option>
+            <option value=5>Platinum</option>
+            <option value=6>Diamond</option>
+            <option value=7>Master</option>
+            <option value=8>Grand master</option>
+            <option value=9>Challenger</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <!--Rol info -->
+      <fieldset class="rol-info">
+        <p class="rol-lol">What is your role in League Of Legends?</p>
+        <label><input type="radio" name="rol-info" value="top" class="inline">Top Laner
+        </label>  
+        <label><input type="radio" name="rol-info" value="jungle" class="inline">Jungler
+        </label>  
+        <label><input type="radio" name="rol-info" value="mid" class="inline">Mid Laner
+        </label>  
+        <label><input type="radio" name="rol-info" value="carry" class="inline">AD Carry
+        </label>  
+        <label><input type="radio" name="rol-info" value="support" class="inline">Support
+        </label>  
+      </fieldset>
+
+      <!--Game knowledge -->
+      <fieldset class="game-style">
+        <p class="game-question">Which of the following options describes you as a player?</p>
+        <label><input type="checkbox" value="early-game"> Early game
+        </label>
+        <label><input type="checkbox" value="late-game"> Late game
+        </label>
+        <label><input type="checkbox" value="wave-managment"> Wave managment
+        </label>
+        <label><input type="checkbox" value="stays-cool"> Stays cool
+        </label>
+        <label><input type="checkbox" value="aggressive"> Aggressive
+        </label>
+        <label><input type="checkbox" value="healer"> Healer
+        </label>
+        <label><input type="checkbox" value="carry"> Carry
+        </label>
+        <label><input type="checkbox" value="objectives"> Objectives
+        </label>
+      </fieldset>
+      <hr>
+    <!--comments -->
+      <fieldset class="comments">
+        <label><p>Send us a comment</p>
+          <textarea rows=3 cols=30 id="comment" placeholder="Feel free to leave comment"></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </div>
+</body>
+<html>

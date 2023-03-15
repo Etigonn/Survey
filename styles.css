@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Helvetica;
+  }
+  
+  body {
+    background: linear-gradient(#430C67 70%, #030C2C);
+    color: white;
+  }
+  
+  .container {
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  
+  #title {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Calibri;
+    margin-top: 50px;
+    font-weight: 600;
+  }
+  
+  #description {
+    font-size: 18px;
+    font-style: italic;
+    font-family: Georga;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  form {
+    font-size: 20px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+    background-color: #00101A70;
+    border-radius: 30px;
+    padding-bottom: 25px;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 1.5rem 0;
+  }
+  
+  #name-label, #email-label, #number-label {
+     display: block;
+     width: 100%;
+     padding-bottom: 10px;
+  }
+  
+  #name, #email, #number {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-bottom: 5px solid #5ABEF9;
+    background-color: #FFF;
+    border-radius: 15px;
+  }
+  
+  label p {
+     display: inline;
+  }
+  
+  #dropdown {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    
+  }
+  
+  .lol-rank, .rol-lol, .game-question {
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    text-align: left;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  .rol-info, .game-style{
+    display: inline-block;
+  }
+  
+  .rol-info label , .game-style label{
+    display: block;
+    margin: 5px 0;
+    margin-left: 10px;
+  }
+  
+  .comments {
+    display: block;
+  }
+  
+  .comments label p{
+    display: block;
+    width: 100%;
+    margin-bottom: 3px;
+  }
+  
+  #comment {
+    width: 100%;
+    min-height: 2rem;
+    color: black;
+    text-align: left;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 5px solid #5ABEF9;
+    border-radius: 15px;
+  }
+  
+  #submit {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    color: black;
+    background-color: #B3E3E6;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  
+  #submit:hover {
+    background-color: #FFF;
+  }
+  
+  #submit:active {
+    background-color: #68DBDD;
+  }
